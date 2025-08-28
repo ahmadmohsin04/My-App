@@ -11,6 +11,9 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.black,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+         iconTheme: IconThemeData(
+          color: Colors.white
+        ),
         backgroundColor: Colors.transparent,
         title: Text(
           "Profile",
